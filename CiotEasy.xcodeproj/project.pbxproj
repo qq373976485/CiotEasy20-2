@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF04890E1B80CD8E0086336C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04890D1B80CD8E0086336C /* AppDelegate.swift */; };
+		BF0489101B80CD8E0086336C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04890F1B80CD8E0086336C /* ViewController.swift */; };
+		BF0489131B80CD8E0086336C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0489111B80CD8E0086336C /* Main.storyboard */; };
+		BF0489151B80CD8E0086336C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0489141B80CD8E0086336C /* Images.xcassets */; };
+		BF0489181B80CD8E0086336C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0489161B80CD8E0086336C /* LaunchScreen.xib */; };
+		BF0489241B80CD8E0086336C /* CiotEasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489231B80CD8E0086336C /* CiotEasyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF04891E1B80CD8E0086336C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0489001B80CD8E0086336C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0489071B80CD8E0086336C;
+			remoteInfo = CiotEasy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF0489081B80CD8E0086336C /* CiotEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiotEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF04890C1B80CD8E0086336C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF04890D1B80CD8E0086336C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF04890F1B80CD8E0086336C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF0489121B80CD8E0086336C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0489141B80CD8E0086336C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF0489171B80CD8E0086336C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF04891D1B80CD8E0086336C /* CiotEasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiotEasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0489221B80CD8E0086336C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0489231B80CD8E0086336C /* CiotEasyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiotEasyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0489051B80CD8E0086336C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF04891A1B80CD8E0086336C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0488FF1B80CD8E0086336C = {
+			isa = PBXGroup;
+			children = (
+				BF04890A1B80CD8E0086336C /* CiotEasy */,
+				BF0489201B80CD8E0086336C /* CiotEasyTests */,
+				BF0489091B80CD8E0086336C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0489091B80CD8E0086336C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0489081B80CD8E0086336C /* CiotEasy.app */,
+				BF04891D1B80CD8E0086336C /* CiotEasyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF04890A1B80CD8E0086336C /* CiotEasy */ = {
+			isa = PBXGroup;
+			children = (
+				BF04890D1B80CD8E0086336C /* AppDelegate.swift */,
+				BF04890F1B80CD8E0086336C /* ViewController.swift */,
+				BF0489111B80CD8E0086336C /* Main.storyboard */,
+				BF0489141B80CD8E0086336C /* Images.xcassets */,
+				BF0489161B80CD8E0086336C /* LaunchScreen.xib */,
+				BF04890B1B80CD8E0086336C /* Supporting Files */,
+			);
+			path = CiotEasy;
+			sourceTree = "<group>";
+		};
+		BF04890B1B80CD8E0086336C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF04890C1B80CD8E0086336C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF0489201B80CD8E0086336C /* CiotEasyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0489231B80CD8E0086336C /* CiotEasyTests.swift */,
+				BF0489211B80CD8E0086336C /* Supporting Files */,
+			);
+			path = CiotEasyTests;
+			sourceTree = "<group>";
+		};
+		BF0489211B80CD8E0086336C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0489221B80CD8E0086336C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0489071B80CD8E0086336C /* CiotEasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0489271B80CD8E0086336C /* Build configuration list for PBXNativeTarget "CiotEasy" */;
+			buildPhases = (
+				BF0489041B80CD8E0086336C /* Sources */,
+				BF0489051B80CD8E0086336C /* Frameworks */,
+				BF0489061B80CD8E0086336C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CiotEasy;
+			productName = CiotEasy;
+			productReference = BF0489081B80CD8E0086336C /* CiotEasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF04891C1B80CD8E0086336C /* CiotEasyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF04892A1B80CD8E0086336C /* Build configuration list for PBXNativeTarget "CiotEasyTests" */;
+			buildPhases = (
+				BF0489191B80CD8E0086336C /* Sources */,
+				BF04891A1B80CD8E0086336C /* Frameworks */,
+				BF04891B1B80CD8E0086336C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF04891F1B80CD8E0086336C /* PBXTargetDependency */,
+			);
+			name = CiotEasyTests;
+			productName = CiotEasyTests;
+			productReference = BF04891D1B80CD8E0086336C /* CiotEasyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0489001B80CD8E0086336C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Vincent;
+				TargetAttributes = {
+					BF0489071B80CD8E0086336C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BF04891C1B80CD8E0086336C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BF0489071B80CD8E0086336C;
+					};
+				};
+			};
+			buildConfigurationList = BF0489031B80CD8E0086336C /* Build configuration list for PBXProject "CiotEasy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0488FF1B80CD8E0086336C;
+			productRefGroup = BF0489091B80CD8E0086336C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0489071B80CD8E0086336C /* CiotEasy */,
+				BF04891C1B80CD8E0086336C /* CiotEasyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0489061B80CD8E0086336C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0489131B80CD8E0086336C /* Main.storyboard in Resources */,
+				BF0489181B80CD8E0086336C /* LaunchScreen.xib in Resources */,
+				BF0489151B80CD8E0086336C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF04891B1B80CD8E0086336C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0489041B80CD8E0086336C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0489101B80CD8E0086336C /* ViewController.swift in Sources */,
+				BF04890E1B80CD8E0086336C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0489191B80CD8E0086336C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0489241B80CD8E0086336C /* CiotEasyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF04891F1B80CD8E0086336C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0489071B80CD8E0086336C /* CiotEasy */;
+			targetProxy = BF04891E1B80CD8E0086336C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF0489111B80CD8E0086336C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0489121B80CD8E0086336C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0489161B80CD8E0086336C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0489171B80CD8E0086336C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF0489251B80CD8E0086336C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF0489261B80CD8E0086336C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF0489281B80CD8E0086336C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CiotEasy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF0489291B80CD8E0086336C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CiotEasy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF04892B1B80CD8E0086336C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CiotEasyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiotEasy.app/CiotEasy";
+			};
+			name = Debug;
+		};
+		BF04892C1B80CD8E0086336C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CiotEasyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiotEasy.app/CiotEasy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0489031B80CD8E0086336C /* Build configuration list for PBXProject "CiotEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0489251B80CD8E0086336C /* Debug */,
+				BF0489261B80CD8E0086336C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0489271B80CD8E0086336C /* Build configuration list for PBXNativeTarget "CiotEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0489281B80CD8E0086336C /* Debug */,
+				BF0489291B80CD8E0086336C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF04892A1B80CD8E0086336C /* Build configuration list for PBXNativeTarget "CiotEasyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF04892B1B80CD8E0086336C /* Debug */,
+				BF04892C1B80CD8E0086336C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0489001B80CD8E0086336C /* Project object */;
+}
