@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DaSaveTime</key>
+	<date>2015-05-15T04:23:32Z</date>
+	<key>DaFristTimeUse</key>
+	<true/>
+	<key>DaUrl</key>
+	<string>http://www.baidu.com</string>
+	<key>DaDeviceType</key>
+	<string></string>
+	<key>DaDeviceIp</key>
+	<string>192.168.1.101</string>
+	<key>DaDeviceVersion</key>
+	<string></string>
+	<key>DaDeviceLanguage</key>
+	<string></string>
+	<key>DaDeviceBatteryLevel</key>
+	<integer>0</integer>
+	<key>DaDeviceConfigId1</key>
+	<string></string>
+	<key>DaDeviceConfigId2</key>
+	<string></string>
+	<key>DaServerIp</key>
+	<string>192.168.1.100</string>
+	<key>DaPortNumber</key>
+	<integer>6000</integer>
+	<key>DaClientTx</key>
+	<string></string>
+	<key>DaProtocolButton1ON</key>
+	<string>Set Led1 ON</string>
+	<key>DaProtocolButton1OFF</key>
+	<string>Set Led1 OFF</string>
+	<key>DaProtocolButton2ON</key>
+	<string>Set Led2 ON</string>
+	<key>DaProtocolButton2OFF</key>
+	<string>Set Led2 OFF</string>
+	<key>DaProtocolFan1</key>
+	<string>Set Fan1 %</string>
+	<key>DaProtocolRGB</key>
+	<string>Set RGB #</string>
+	<key>DaSendWithTimeAuto</key>
+	<false/>
+	<key>DaServerTx</key>
+	<string></string>
+	<key>DaServerAutoReply</key>
+	<false/>
+	<key>DaServerRGBbackground</key>
+	<false/>
+</dict>
+</plist>

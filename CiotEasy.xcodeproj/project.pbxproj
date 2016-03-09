@@ -7,12 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF04890E1B80CD8E0086336C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04890D1B80CD8E0086336C /* AppDelegate.swift */; };
-		BF0489101B80CD8E0086336C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04890F1B80CD8E0086336C /* ViewController.swift */; };
-		BF0489131B80CD8E0086336C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0489111B80CD8E0086336C /* Main.storyboard */; };
-		BF0489151B80CD8E0086336C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0489141B80CD8E0086336C /* Images.xcassets */; };
-		BF0489181B80CD8E0086336C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0489161B80CD8E0086336C /* LaunchScreen.xib */; };
 		BF0489241B80CD8E0086336C /* CiotEasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489231B80CD8E0086336C /* CiotEasyTests.swift */; };
+		BF0489391B80CF4F0086336C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489381B80CF4F0086336C /* NotificationController.swift */; };
+		BF04893F1B80CF4F0086336C /* CiotEasy WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = BF04893E1B80CF4F0086336C /* CiotEasy WatchKit App.app */; };
+		BF04894C1B80CF4F0086336C /* CiotEasy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BF0489311B80CF4F0086336C /* CiotEasy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BF0489641B80D0270086336C /* SyncRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489541B80D0260086336C /* SyncRequest.swift */; };
+		BF0489651B80D0270086336C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489551B80D0260086336C /* AppDelegate.swift */; };
+		BF0489661B80D0270086336C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489561B80D0260086336C /* ViewController.swift */; };
+		BF0489671B80D0270086336C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0489571B80D0260086336C /* Main.storyboard */; };
+		BF0489681B80D0270086336C /* SensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489581B80D0260086336C /* SensorViewController.swift */; };
+		BF0489691B80D0270086336C /* ContViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489591B80D0260086336C /* ContViewController.swift */; };
+		BF04896A1B80D0270086336C /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04895A1B80D0260086336C /* LogViewController.swift */; };
+		BF04896B1B80D0270086336C /* ServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04895B1B80D0260086336C /* ServerViewController.swift */; };
+		BF04896C1B80D0270086336C /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04895C1B80D0260086336C /* SetupViewController.swift */; };
+		BF04896D1B80D0270086336C /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04895D1B80D0260086336C /* GuideViewController.swift */; };
+		BF04896E1B80D0270086336C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04895E1B80D0260086336C /* MainTabBarController.swift */; };
+		BF04896F1B80D0270086336C /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04895F1B80D0260086336C /* DeviceViewController.swift */; };
+		BF0489701B80D0270086336C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489601B80D0260086336C /* Reachability.swift */; };
+		BF0489711B80D0270086336C /* TCPIPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489611B80D0270086336C /* TCPIPSocket.swift */; };
+		BF0489721B80D0270086336C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0489621B80D0270086336C /* Images.xcassets */; };
+		BF0489731B80D0270086336C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0489631B80D0270086336C /* LaunchScreen.xib */; };
+		BF04897B1B80D04F0086336C /* CiotEasy.html in Resources */ = {isa = PBXBuildFile; fileRef = BF0489741B80D04F0086336C /* CiotEasy.html */; };
+		BF04897C1B80D04F0086336C /* iphoneView1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0489751B80D04F0086336C /* iphoneView1.png */; };
+		BF04897D1B80D04F0086336C /* iphoneView2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0489761B80D04F0086336C /* iphoneView2.png */; };
+		BF04897E1B80D04F0086336C /* iphoneView3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0489771B80D04F0086336C /* iphoneView3.png */; };
+		BF04897F1B80D0500086336C /* iphoneView4.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0489781B80D04F0086336C /* iphoneView4.png */; };
+		BF0489801B80D0500086336C /* WatchViews1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0489791B80D04F0086336C /* WatchViews1.png */; };
+		BF0489811B80D0500086336C /* WatchViews2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF04897A1B80D04F0086336C /* WatchViews2.png */; };
+		BF0489941B80D0FC0086336C /* newspaper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF04898A1B80D0FC0086336C /* newspaper@2x.png */; };
+		BF0489951B80D0FC0086336C /* pickcolors01.png in Resources */ = {isa = PBXBuildFile; fileRef = BF04898B1B80D0FC0086336C /* pickcolors01.png */; };
+		BF0489961B80D0FC0086336C /* cog_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF04898C1B80D0FC0086336C /* cog_02@2x.png */; };
+		BF0489971B80D0FC0086336C /* lightbulb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF04898D1B80D0FC0086336C /* lightbulb@2x.png */; };
+		BF0489981B80D0FC0086336C /* monitor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF04898E1B80D0FC0086336C /* monitor@2x.png */; };
+		BF0489991B80D0FC0086336C /* game_controller@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF04898F1B80D0FC0086336C /* game_controller@2x.png */; };
+		BF04899A1B80D0FC0086336C /* house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0489901B80D0FC0086336C /* house@2x.png */; };
+		BF04899B1B80D0FC0086336C /* pacman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0489911B80D0FC0086336C /* pacman@2x.png */; };
+		BF04899C1B80D0FC0086336C /* speaker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0489921B80D0FC0086336C /* speaker@2x.png */; };
+		BF04899D1B80D0FC0086336C /* photos_polaroid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0489931B80D0FC0086336C /* photos_polaroid@2x.png */; };
+		BF0489A31B80D12B0086336C /* UserSetup.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF0489A11B80D12B0086336C /* UserSetup.plist */; };
+		BF0489A71B80D1740086336C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489A41B80D1740086336C /* InterfaceController.swift */; };
+		BF0489A81B80D1740086336C /* SensorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489A51B80D1740086336C /* SensorController.swift */; };
+		BF0489A91B80D1740086336C /* myPhoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0489A61B80D1740086336C /* myPhoneController.swift */; };
+		BF0489AB1B80D1830086336C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0489AA1B80D1830086336C /* Images.xcassets */; };
+		BF0489AE1B80D1AC0086336C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0489AC1B80D1AC0086336C /* Interface.storyboard */; };
+		BF0489AF1B80D1AC0086336C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0489AD1B80D1AC0086336C /* Images.xcassets */; };
+		BF0489B51B80D2F80086336C /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0489B21B80D2F80086336C /* GCDAsyncSocket.m */; };
+		BF0489B61B80D2F80086336C /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0489B41B80D2F80086336C /* GCDAsyncUdpSocket.m */; };
+		BF0489B81B80D3580086336C /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0489B71B80D3580086336C /* Objective-CBridgingHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +64,94 @@
 			remoteGlobalIDString = BF0489071B80CD8E0086336C;
 			remoteInfo = CiotEasy;
 		};
+		BF0489401B80CF4F0086336C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0489001B80CD8E0086336C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF04893D1B80CF4F0086336C;
+			remoteInfo = "CiotEasy WatchKit App";
+		};
+		BF04894A1B80CF4F0086336C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0489001B80CD8E0086336C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0489301B80CF4F0086336C;
+			remoteInfo = "CiotEasy WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF0489531B80CF4F0086336C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF04894C1B80CF4F0086336C /* CiotEasy WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BF0489081B80CD8E0086336C /* CiotEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiotEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF04890C1B80CD8E0086336C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF04890D1B80CD8E0086336C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF04890F1B80CD8E0086336C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF0489121B80CD8E0086336C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF0489141B80CD8E0086336C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BF0489171B80CD8E0086336C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BF04891D1B80CD8E0086336C /* CiotEasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiotEasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0489221B80CD8E0086336C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0489231B80CD8E0086336C /* CiotEasyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiotEasyTests.swift; sourceTree = "<group>"; };
+		BF0489311B80CF4F0086336C /* CiotEasy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CiotEasy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0489341B80CF4F0086336C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0489351B80CF4F0086336C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		BF0489381B80CF4F0086336C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		BF04893E1B80CF4F0086336C /* CiotEasy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CiotEasy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0489441B80CF4F0086336C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0489541B80D0260086336C /* SyncRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncRequest.swift; sourceTree = "<group>"; };
+		BF0489551B80D0260086336C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF0489561B80D0260086336C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF0489571B80D0260086336C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BF0489581B80D0260086336C /* SensorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorViewController.swift; sourceTree = "<group>"; };
+		BF0489591B80D0260086336C /* ContViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContViewController.swift; sourceTree = "<group>"; };
+		BF04895A1B80D0260086336C /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		BF04895B1B80D0260086336C /* ServerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerViewController.swift; sourceTree = "<group>"; };
+		BF04895C1B80D0260086336C /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		BF04895D1B80D0260086336C /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		BF04895E1B80D0260086336C /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		BF04895F1B80D0260086336C /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		BF0489601B80D0260086336C /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		BF0489611B80D0270086336C /* TCPIPSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPIPSocket.swift; sourceTree = "<group>"; };
+		BF0489621B80D0270086336C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF0489631B80D0270086336C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		BF0489741B80D04F0086336C /* CiotEasy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CiotEasy.html; sourceTree = "<group>"; };
+		BF0489751B80D04F0086336C /* iphoneView1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneView1.png; sourceTree = "<group>"; };
+		BF0489761B80D04F0086336C /* iphoneView2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneView2.png; sourceTree = "<group>"; };
+		BF0489771B80D04F0086336C /* iphoneView3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneView3.png; sourceTree = "<group>"; };
+		BF0489781B80D04F0086336C /* iphoneView4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneView4.png; sourceTree = "<group>"; };
+		BF0489791B80D04F0086336C /* WatchViews1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchViews1.png; sourceTree = "<group>"; };
+		BF04897A1B80D04F0086336C /* WatchViews2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchViews2.png; sourceTree = "<group>"; };
+		BF04898A1B80D0FC0086336C /* newspaper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newspaper@2x.png"; sourceTree = "<group>"; };
+		BF04898B1B80D0FC0086336C /* pickcolors01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickcolors01.png; sourceTree = "<group>"; };
+		BF04898C1B80D0FC0086336C /* cog_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog_02@2x.png"; sourceTree = "<group>"; };
+		BF04898D1B80D0FC0086336C /* lightbulb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightbulb@2x.png"; sourceTree = "<group>"; };
+		BF04898E1B80D0FC0086336C /* monitor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monitor@2x.png"; sourceTree = "<group>"; };
+		BF04898F1B80D0FC0086336C /* game_controller@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_controller@2x.png"; sourceTree = "<group>"; };
+		BF0489901B80D0FC0086336C /* house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@2x.png"; sourceTree = "<group>"; };
+		BF0489911B80D0FC0086336C /* pacman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pacman@2x.png"; sourceTree = "<group>"; };
+		BF0489921B80D0FC0086336C /* speaker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speaker@2x.png"; sourceTree = "<group>"; };
+		BF0489931B80D0FC0086336C /* photos_polaroid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos_polaroid@2x.png"; sourceTree = "<group>"; };
+		BF0489A11B80D12B0086336C /* UserSetup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserSetup.plist; sourceTree = "<group>"; };
+		BF0489A41B80D1740086336C /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BF0489A51B80D1740086336C /* SensorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorController.swift; sourceTree = "<group>"; };
+		BF0489A61B80D1740086336C /* myPhoneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPhoneController.swift; sourceTree = "<group>"; };
+		BF0489AA1B80D1830086336C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF0489AC1B80D1AC0086336C /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		BF0489AD1B80D1AC0086336C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF0489B01B80D2F80086336C /* CiotEasy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CiotEasy-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF0489B11B80D2F80086336C /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		BF0489B21B80D2F80086336C /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		BF0489B31B80D2F80086336C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		BF0489B41B80D2F80086336C /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		BF0489B71B80D3580086336C /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +169,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF04892E1B80CF4F0086336C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +184,8 @@
 			children = (
 				BF04890A1B80CD8E0086336C /* CiotEasy */,
 				BF0489201B80CD8E0086336C /* CiotEasyTests */,
+				BF0489321B80CF4F0086336C /* CiotEasy WatchKit Extension */,
+				BF0489421B80CF4F0086336C /* CiotEasy WatchKit App */,
 				BF0489091B80CD8E0086336C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +195,8 @@
 			children = (
 				BF0489081B80CD8E0086336C /* CiotEasy.app */,
 				BF04891D1B80CD8E0086336C /* CiotEasyTests.xctest */,
+				BF0489311B80CF4F0086336C /* CiotEasy WatchKit Extension.appex */,
+				BF04893E1B80CF4F0086336C /* CiotEasy WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,11 +204,42 @@
 		BF04890A1B80CD8E0086336C /* CiotEasy */ = {
 			isa = PBXGroup;
 			children = (
-				BF04890D1B80CD8E0086336C /* AppDelegate.swift */,
-				BF04890F1B80CD8E0086336C /* ViewController.swift */,
-				BF0489111B80CD8E0086336C /* Main.storyboard */,
-				BF0489141B80CD8E0086336C /* Images.xcassets */,
-				BF0489161B80CD8E0086336C /* LaunchScreen.xib */,
+				BF0489541B80D0260086336C /* SyncRequest.swift */,
+				BF0489551B80D0260086336C /* AppDelegate.swift */,
+				BF0489561B80D0260086336C /* ViewController.swift */,
+				BF0489571B80D0260086336C /* Main.storyboard */,
+				BF0489581B80D0260086336C /* SensorViewController.swift */,
+				BF0489591B80D0260086336C /* ContViewController.swift */,
+				BF04895A1B80D0260086336C /* LogViewController.swift */,
+				BF04895B1B80D0260086336C /* ServerViewController.swift */,
+				BF04895C1B80D0260086336C /* SetupViewController.swift */,
+				BF04895D1B80D0260086336C /* GuideViewController.swift */,
+				BF04895E1B80D0260086336C /* MainTabBarController.swift */,
+				BF04895F1B80D0260086336C /* DeviceViewController.swift */,
+				BF0489601B80D0260086336C /* Reachability.swift */,
+				BF0489611B80D0270086336C /* TCPIPSocket.swift */,
+				BF0489621B80D0270086336C /* Images.xcassets */,
+				BF0489631B80D0270086336C /* LaunchScreen.xib */,
+				BF0489821B80D0720086336C /* html */,
+				BF0489741B80D04F0086336C /* CiotEasy.html */,
+				BF0489751B80D04F0086336C /* iphoneView1.png */,
+				BF0489761B80D04F0086336C /* iphoneView2.png */,
+				BF0489771B80D04F0086336C /* iphoneView3.png */,
+				BF0489781B80D04F0086336C /* iphoneView4.png */,
+				BF0489791B80D04F0086336C /* WatchViews1.png */,
+				BF04897A1B80D04F0086336C /* WatchViews2.png */,
+				BF0489891B80D0C00086336C /* GCDAsync */,
+				BF04899E1B80D1060086336C /* images */,
+				BF04898A1B80D0FC0086336C /* newspaper@2x.png */,
+				BF04898B1B80D0FC0086336C /* pickcolors01.png */,
+				BF04898C1B80D0FC0086336C /* cog_02@2x.png */,
+				BF04898D1B80D0FC0086336C /* lightbulb@2x.png */,
+				BF04898E1B80D0FC0086336C /* monitor@2x.png */,
+				BF04898F1B80D0FC0086336C /* game_controller@2x.png */,
+				BF0489901B80D0FC0086336C /* house@2x.png */,
+				BF0489911B80D0FC0086336C /* pacman@2x.png */,
+				BF0489921B80D0FC0086336C /* speaker@2x.png */,
+				BF0489931B80D0FC0086336C /* photos_polaroid@2x.png */,
 				BF04890B1B80CD8E0086336C /* Supporting Files */,
 			);
 			path = CiotEasy;
@@ -90,6 +248,8 @@
 		BF04890B1B80CD8E0086336C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF0489B71B80D3580086336C /* Objective-CBridgingHeader.m */,
+				BF0489A11B80D12B0086336C /* UserSetup.plist */,
 				BF04890C1B80CD8E0086336C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +272,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BF0489321B80CF4F0086336C /* CiotEasy WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BF0489A41B80D1740086336C /* InterfaceController.swift */,
+				BF0489A51B80D1740086336C /* SensorController.swift */,
+				BF0489A61B80D1740086336C /* myPhoneController.swift */,
+				BF0489381B80CF4F0086336C /* NotificationController.swift */,
+				BF0489AA1B80D1830086336C /* Images.xcassets */,
+				BF0489331B80CF4F0086336C /* Supporting Files */,
+			);
+			path = "CiotEasy WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BF0489331B80CF4F0086336C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0489341B80CF4F0086336C /* Info.plist */,
+				BF0489351B80CF4F0086336C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF0489421B80CF4F0086336C /* CiotEasy WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BF0489AC1B80D1AC0086336C /* Interface.storyboard */,
+				BF0489AD1B80D1AC0086336C /* Images.xcassets */,
+				BF0489431B80CF4F0086336C /* Supporting Files */,
+			);
+			path = "CiotEasy WatchKit App";
+			sourceTree = "<group>";
+		};
+		BF0489431B80CF4F0086336C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0489441B80CF4F0086336C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF0489821B80D0720086336C /* html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = html;
+			sourceTree = "<group>";
+		};
+		BF0489891B80D0C00086336C /* GCDAsync */ = {
+			isa = PBXGroup;
+			children = (
+				BF0489B11B80D2F80086336C /* GCDAsyncSocket.h */,
+				BF0489B21B80D2F80086336C /* GCDAsyncSocket.m */,
+				BF0489B31B80D2F80086336C /* GCDAsyncUdpSocket.h */,
+				BF0489B41B80D2F80086336C /* GCDAsyncUdpSocket.m */,
+				BF0489B01B80D2F80086336C /* CiotEasy-Bridging-Header.h */,
+			);
+			name = GCDAsync;
+			sourceTree = "<group>";
+		};
+		BF04899E1B80D1060086336C /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +348,12 @@
 				BF0489041B80CD8E0086336C /* Sources */,
 				BF0489051B80CD8E0086336C /* Frameworks */,
 				BF0489061B80CD8E0086336C /* Resources */,
+				BF0489531B80CF4F0086336C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BF04894B1B80CF4F0086336C /* PBXTargetDependency */,
 			);
 			name = CiotEasy;
 			productName = CiotEasy;
@@ -150,21 +378,64 @@
 			productReference = BF04891D1B80CD8E0086336C /* CiotEasyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BF0489301B80CF4F0086336C /* CiotEasy WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0489521B80CF4F0086336C /* Build configuration list for PBXNativeTarget "CiotEasy WatchKit Extension" */;
+			buildPhases = (
+				BF04892D1B80CF4F0086336C /* Sources */,
+				BF04892E1B80CF4F0086336C /* Frameworks */,
+				BF04892F1B80CF4F0086336C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0489411B80CF4F0086336C /* PBXTargetDependency */,
+			);
+			name = "CiotEasy WatchKit Extension";
+			productName = "CiotEasy WatchKit Extension";
+			productReference = BF0489311B80CF4F0086336C /* CiotEasy WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		BF04893D1B80CF4F0086336C /* CiotEasy WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0489511B80CF4F0086336C /* Build configuration list for PBXNativeTarget "CiotEasy WatchKit App" */;
+			buildPhases = (
+				BF04893C1B80CF4F0086336C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CiotEasy WatchKit App";
+			productName = "CiotEasy WatchKit App";
+			productReference = BF04893E1B80CF4F0086336C /* CiotEasy WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		BF0489001B80CD8E0086336C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Vincent;
 				TargetAttributes = {
 					BF0489071B80CD8E0086336C = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 542E4GR53J;
 					};
 					BF04891C1B80CD8E0086336C = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = BF0489071B80CD8E0086336C;
+					};
+					BF0489301B80CF4F0086336C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 542E4GR53J;
+					};
+					BF04893D1B80CF4F0086336C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 542E4GR53J;
 					};
 				};
 			};
@@ -183,6 +454,8 @@
 			targets = (
 				BF0489071B80CD8E0086336C /* CiotEasy */,
 				BF04891C1B80CD8E0086336C /* CiotEasyTests */,
+				BF0489301B80CF4F0086336C /* CiotEasy WatchKit Extension */,
+				BF04893D1B80CF4F0086336C /* CiotEasy WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -192,9 +465,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0489131B80CD8E0086336C /* Main.storyboard in Resources */,
-				BF0489181B80CD8E0086336C /* LaunchScreen.xib in Resources */,
-				BF0489151B80CD8E0086336C /* Images.xcassets in Resources */,
+				BF0489991B80D0FC0086336C /* game_controller@2x.png in Resources */,
+				BF04899D1B80D0FC0086336C /* photos_polaroid@2x.png in Resources */,
+				BF04899C1B80D0FC0086336C /* speaker@2x.png in Resources */,
+				BF0489671B80D0270086336C /* Main.storyboard in Resources */,
+				BF04897C1B80D04F0086336C /* iphoneView1.png in Resources */,
+				BF0489961B80D0FC0086336C /* cog_02@2x.png in Resources */,
+				BF0489801B80D0500086336C /* WatchViews1.png in Resources */,
+				BF0489971B80D0FC0086336C /* lightbulb@2x.png in Resources */,
+				BF04897D1B80D04F0086336C /* iphoneView2.png in Resources */,
+				BF04897B1B80D04F0086336C /* CiotEasy.html in Resources */,
+				BF04899B1B80D0FC0086336C /* pacman@2x.png in Resources */,
+				BF0489951B80D0FC0086336C /* pickcolors01.png in Resources */,
+				BF04897F1B80D0500086336C /* iphoneView4.png in Resources */,
+				BF0489731B80D0270086336C /* LaunchScreen.xib in Resources */,
+				BF0489811B80D0500086336C /* WatchViews2.png in Resources */,
+				BF04899A1B80D0FC0086336C /* house@2x.png in Resources */,
+				BF0489941B80D0FC0086336C /* newspaper@2x.png in Resources */,
+				BF04897E1B80D04F0086336C /* iphoneView3.png in Resources */,
+				BF0489A31B80D12B0086336C /* UserSetup.plist in Resources */,
+				BF0489721B80D0270086336C /* Images.xcassets in Resources */,
+				BF0489981B80D0FC0086336C /* monitor@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +496,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF04892F1B80CF4F0086336C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF04893F1B80CF4F0086336C /* CiotEasy WatchKit App.app in Resources */,
+				BF0489AB1B80D1830086336C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF04893C1B80CF4F0086336C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0489AE1B80D1AC0086336C /* Interface.storyboard in Resources */,
+				BF0489AF1B80D1AC0086336C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -212,8 +521,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0489101B80CD8E0086336C /* ViewController.swift in Sources */,
-				BF04890E1B80CD8E0086336C /* AppDelegate.swift in Sources */,
+				BF0489B81B80D3580086336C /* Objective-CBridgingHeader.m in Sources */,
+				BF04896F1B80D0270086336C /* DeviceViewController.swift in Sources */,
+				BF0489B61B80D2F80086336C /* GCDAsyncUdpSocket.m in Sources */,
+				BF0489661B80D0270086336C /* ViewController.swift in Sources */,
+				BF0489701B80D0270086336C /* Reachability.swift in Sources */,
+				BF0489691B80D0270086336C /* ContViewController.swift in Sources */,
+				BF04896E1B80D0270086336C /* MainTabBarController.swift in Sources */,
+				BF04896D1B80D0270086336C /* GuideViewController.swift in Sources */,
+				BF0489651B80D0270086336C /* AppDelegate.swift in Sources */,
+				BF04896A1B80D0270086336C /* LogViewController.swift in Sources */,
+				BF0489711B80D0270086336C /* TCPIPSocket.swift in Sources */,
+				BF04896C1B80D0270086336C /* SetupViewController.swift in Sources */,
+				BF04896B1B80D0270086336C /* ServerViewController.swift in Sources */,
+				BF0489681B80D0270086336C /* SensorViewController.swift in Sources */,
+				BF0489B51B80D2F80086336C /* GCDAsyncSocket.m in Sources */,
+				BF0489641B80D0270086336C /* SyncRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +548,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF04892D1B80CF4F0086336C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0489391B80CF4F0086336C /* NotificationController.swift in Sources */,
+				BF0489A71B80D1740086336C /* InterfaceController.swift in Sources */,
+				BF0489A91B80D1740086336C /* myPhoneController.swift in Sources */,
+				BF0489A81B80D1740086336C /* SensorController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -233,26 +567,17 @@
 			target = BF0489071B80CD8E0086336C /* CiotEasy */;
 			targetProxy = BF04891E1B80CD8E0086336C /* PBXContainerItemProxy */;
 		};
+		BF0489411B80CF4F0086336C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF04893D1B80CF4F0086336C /* CiotEasy WatchKit App */;
+			targetProxy = BF0489401B80CF4F0086336C /* PBXContainerItemProxy */;
+		};
+		BF04894B1B80CF4F0086336C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0489301B80CF4F0086336C /* CiotEasy WatchKit Extension */;
+			targetProxy = BF04894A1B80CF4F0086336C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BF0489111B80CD8E0086336C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF0489121B80CD8E0086336C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF0489161B80CD8E0086336C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF0489171B80CD8E0086336C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BF0489251B80CD8E0086336C /* Debug */ = {
@@ -340,9 +665,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CiotEasy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CiotEasy/CiotEasy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +679,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CiotEasy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CiotEasy/CiotEasy-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -390,6 +722,66 @@
 			};
 			name = Release;
 		};
+		BF04894D1B80CF4F0086336C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CiotEasy WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF04894E1B80CF4F0086336C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "CiotEasy WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BF04894F1B80CF4F0086336C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = CiotEasy_WatchKit_Extension;
+				INFOPLIST_FILE = "CiotEasy WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		BF0489501B80CF4F0086336C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = CiotEasy_WatchKit_Extension;
+				INFOPLIST_FILE = "CiotEasy WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +801,7 @@
 				BF0489291B80CD8E0086336C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF04892A1B80CD8E0086336C /* Build configuration list for PBXNativeTarget "CiotEasyTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +810,25 @@
 				BF04892C1B80CD8E0086336C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0489511B80CF4F0086336C /* Build configuration list for PBXNativeTarget "CiotEasy WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF04894F1B80CF4F0086336C /* Debug */,
+				BF0489501B80CF4F0086336C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0489521B80CF4F0086336C /* Build configuration list for PBXNativeTarget "CiotEasy WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF04894D1B80CF4F0086336C /* Debug */,
+				BF04894E1B80CF4F0086336C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

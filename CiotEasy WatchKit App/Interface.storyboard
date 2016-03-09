@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Control-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Control" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CiotEasy_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="jKj-eG-FU7">
+                            <items>
+                                <imageView width="50" height="39" alignment="left" id="UAs-eT-ES4"/>
+                                <button width="95" alignment="left" title="客廳 - 燈" id="vFg-n3-Gxc">
+                                    <connections>
+                                        <action selector="led1button1" destination="AgC-eL-Hgc" id="2eE-1d-1B5"/>
+                                    </connections>
+                                </button>
+                                <label alignment="left" hidden="YES" text="⇅" minimumScaleFactor="0.50000000000000011" id="eh5-wU-sbp" userLabel="o">
+                                    <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="SdW-wo-PEK">
+                            <items>
+                                <imageView width="49" alignment="left" id="l4U-sM-A57"/>
+                                <button width="47" alignment="left" title="ON" id="sYA-kt-zWD">
+                                    <color key="titleColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="led2button1" destination="AgC-eL-Hgc" id="XeF-iZ-tAv"/>
+                                    </connections>
+                                </button>
+                                <button width="47" alignment="left" title="OFF" id="0Tj-9q-63a">
+                                    <connections>
+                                        <action selector="led2button2" destination="AgC-eL-Hgc" id="FZy-c1-5Tz"/>
+                                    </connections>
+                                </button>
+                                <label alignment="left" hidden="YES" text="⇅" id="yvc-9D-bbg" userLabel="x">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="cLR-Xs-Lx5">
+                            <items>
+                                <imageView width="50" alignment="left" id="Cge-II-ziq"/>
+                                <switch width="95" alignment="left" title="插頭1" id="833-xb-066">
+                                    <connections>
+                                        <action selector="plug1switch:" destination="AgC-eL-Hgc" id="0GC-UV-Fv6"/>
+                                    </connections>
+                                </switch>
+                                <label alignment="left" verticalAlignment="center" text="⇅" id="Dov-Fe-XIu" userLabel="o">
+                                    <color key="textColor" red="0.050920957820000001" green="1" blue="0.87953333389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="4ju-gK-OzM">
+                            <items>
+                                <imageView width="50" alignment="left" id="IEb-NU-NwQ"/>
+                                <slider width="95" alignment="left" value="2" maximum="5" steps="5" id="3hK-ro-0Jv">
+                                    <connections>
+                                        <action selector="pressFanSlider:" destination="AgC-eL-Hgc" id="bS1-26-01X"/>
+                                    </connections>
+                                </slider>
+                                <label alignment="left" hidden="YES" text="x" id="jm5-6O-6ug">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="LBn-ac-K6W">
+                            <items>
+                                <imageView width="50" alignment="left" id="fr2-if-ALr"/>
+                                <button width="95" alignment="left" title="Sensor1" id="n5H-wa-2Bk" userLabel="tempture">
+                                    <color key="titleColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="pressSensorButton" destination="AgC-eL-Hgc" id="cmV-7A-Mcw"/>
+                                        <segue destination="hyV-3Y-n82" kind="push" id="uDk-CH-DM2"/>
+                                    </connections>
+                                </button>
+                                <label alignment="left" hidden="YES" text="⇅" id="aMq-er-e5b">
+                                    <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="zRb-bQ-XwX">
+                            <items>
+                                <button width="1" alignment="left" title="my Phone 🔋" id="l9Y-pS-V8L">
+                                    <color key="titleColor" red="0.66996242269999995" green="1" blue="0.084975603849999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <segue destination="xFS-0D-Vvb" kind="push" id="W2a-xQ-vU8"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="image1" destination="UAs-eT-ES4" id="CVr-0p-2ou"/>
+                        <outlet property="image2" destination="l4U-sM-A57" id="vzw-n3-6D0"/>
+                        <outlet property="image3" destination="Cge-II-ziq" id="4hy-gT-MfB"/>
+                        <outlet property="image4" destination="IEb-NU-NwQ" id="di1-8k-EOa"/>
+                        <outlet property="image5" destination="fr2-if-ALr" id="mKS-hh-WmB"/>
+                        <outlet property="led1button" destination="vFg-n3-Gxc" id="HPz-Ib-Wu1"/>
+                        <outlet property="showTempButton" destination="n5H-wa-2Bk" id="lZJ-7P-XWw"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="131" y="346.75"/>
+        </scene>
+        <!--myPhone-->
+        <scene sceneID="BJ5-vR-w4w">
+            <objects>
+                <controller title="myPhone" id="xFS-0D-Vvb" customClass="myPhoneController" customModule="CiotEasy_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="102.5" alignment="left" layout="vertical" id="dst-bX-rgP">
+                            <items>
+                                <label alignment="left" text="Not Ready" id="K1a-jR-UTf">
+                                    <color key="textColor" red="0.66996242269999995" green="1" blue="0.084975603849999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <group width="1" alignment="left" id="5dV-Q3-lTW">
+                                    <items>
+                                        <imageView width="80" height="80" alignment="center" verticalAlignment="center" image="battery128" id="sex-ok-iWf"/>
+                                        <label width="50" height="17.5" alignment="right" verticalAlignment="center" text="-??%" id="2Br-UV-eQ1" userLabel="Label">
+                                            <color key="textColor" red="0.66996242269999995" green="1" blue="0.084975603849999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="8f3-MF-gW1">
+                            <items>
+                                <label alignment="left" text="連線狀態:" id="cSb-CU-Bfe">
+                                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="unknow" id="lvK-Pe-h6J">
+                                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="tqn-5x-Zd4">
+                            <items>
+                                <label alignment="left" text="IP地址:" id="Rpm-26-qDq">
+                                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="unknow" id="3r8-Ji-zSY">
+                                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="nRY-6E-9C2">
+                            <items>
+                                <label alignment="left" text="版本:" id="Kww-8r-16E">
+                                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="8.x" id="jNm-QY-6GK">
+                                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="ios" id="oPe-f1-AgF">
+                                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="1" alignment="left" layout="vertical" id="LfM-4h-CtL">
+                            <items>
+                                <group width="1" height="36.5" alignment="left" id="5o4-p5-a4x">
+                                    <items>
+                                        <label width="81.5" height="19.5" alignment="left" verticalAlignment="center" text="傳感器信息" id="fJy-vn-qLm" userLabel="sensor">
+                                            <color key="textColor" red="0.90588241820000004" green="0.97254908080000002" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                        </label>
+                                        <button width="50" height="30" alignment="right" verticalAlignment="center" title="Status" id="4oG-7r-e3S">
+                                            <color key="titleColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="11"/>
+                                            <connections>
+                                                <action selector="pressStatusButton" destination="xFS-0D-Vvb" id="ISg-v6-aPu"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" id="cuL-wP-fl1">
+                                    <items>
+                                        <label alignment="left" text="ID:" id="g8F-XK-xqa">
+                                            <color key="textColor" red="0.90588241820000004" green="0.97254908080000002" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                        </label>
+                                        <label width="107.5" alignment="left" text="Not Ready " minimumScaleFactor="0.50000000000000011" id="EMw-RQ-m1o">
+                                            <color key="textColor" red="0.90588241820000004" green="0.97254908080000002" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="batteryLevel" destination="2Br-UV-eQ1" id="ZYX-iE-cQ5"/>
+                        <outlet property="internetStatus" destination="lvK-Pe-h6J" id="qVS-U9-Ehq"/>
+                        <outlet property="myDeviceStatus" destination="4oG-7r-e3S" id="nj0-g2-bep"/>
+                        <outlet property="myPhoneIP" destination="3r8-Ji-zSY" id="kLg-vd-269"/>
+                        <outlet property="mySensorID" destination="EMw-RQ-m1o" id="t1i-gu-amM"/>
+                        <outlet property="phoneDeviceName" destination="K1a-jR-UTf" id="yBb-2z-Ydd"/>
+                        <outlet property="phoneSystemName" destination="oPe-f1-AgF" id="lCR-h1-EwI"/>
+                        <outlet property="phoneSystemVersion" destination="jNm-QY-6GK" id="2VB-nW-rhY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="398" y="136.25"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="131" y="758"/>
+        </scene>
+        <!--Sensor1-->
+        <scene sceneID="6g7-pD-Iwu">
+            <objects>
+                <controller title="Sensor1" id="hyV-3Y-n82" customClass="SensorController" customModule="CiotEasy_WatchKit_Extension">
+                    <items>
+                        <label width="126.5" alignment="left" text="溫度及濕度傳感器" id="Lnp-gW-Jhs">
+                            <color key="textColor" red="0.66996242269999995" green="1" blue="0.084975603849999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <group width="1" height="90" alignment="left" id="dHj-Mx-y3T">
+                            <items>
+                                <imageView width="90" height="90" alignment="center" verticalAlignment="center" image="tempture1" id="omp-3h-sgX"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="PSk-TY-f0Y">
+                            <items>
+                                <label width="66.5" height="19.5" alignment="center" verticalAlignment="center" text="32.45 °C" textAlignment="center" id="BBz-eW-w0f">
+                                    <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="xds-1Q-uT1">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="76% RH" textAlignment="center" id="0Rh-nk-qEi">
+                                    <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="sensor1humi" destination="0Rh-nk-qEi" id="hBP-h9-unJ"/>
+                        <outlet property="sensor1temp" destination="BBz-eW-w0f" id="rg9-WZ-Z7E"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="398" y="475.75"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="CiotEasy_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="379" y="758"/>
+        </scene>
+    </scenes>
+</document>
